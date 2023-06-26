@@ -31,10 +31,45 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg  fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#hero"><img src="img/iheart-logo.png" width="50" height="50" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="nav me-auto mb-2 mb-lg-0 fs-6">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#hero">HOME</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#about" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              ABOUT US
+            </a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a class="dropdown-item" href="#about">iHeart Neg-Or</a></li>
+              <li><a class="dropdown-item" href="#">Vision&Mission</a></li>
+              <li><a class="dropdown-item" href="#">Our work</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Meet the Team</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <div class="container-1">
     <!-- HERO -->
-    <div class="section w3-flat-turquoise">
-      <div class="container-fluid text-white w3-metro-teal p-0" style="width: 100vw; height: 100vh;">
+    <div class="section w3-flat-turquoise" id="hero">
+      <div class="container-fluid text-white w3-metro-dark-purple p-0" style="width: 100vw; height: 100vh;">
         <div class="bg-video">
           <!-- <iframe class="bg-video__iframe w3-hide-small"
             src="https://www.youtube.com/embed/5bJvoDHiQww?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1"
@@ -43,12 +78,12 @@
             <source src="img/pexels-weldi-studio-design-8675552-1920x1080-30fps.mp4" type="video/mp4">
           </video>
           <div class="container m-0 p-md-0 p-2 w3-display-middle text-center">
-            <div class="row row-cols-1 justify-content-center">
+            <div class="row gap-lg-5 row-cols-1 justify-content-center">
               <div class="col-6 col-md-4 col-lg-3 align-items-middle">
                 <img class="w3-image w3-animate-left border border-5 border-white rounded mb-5 mb-lg-0"
                   src="img/iheart-profile.png" alt="">
               </div>
-              <div class="col col-lg-9 text-start justify-content-center">
+              <div class="col col-lg-8  text-start justify-content-center">
                 <span class="display-1 fw-bolder w3-animate-right w3-wide">iHEART </span> <br
                   class="w3-hide-large w3-hide-medium">
                 <span class="display-4 w3-text-deep-orange fw-bold w3-animate-top" style="white-space: nowrap;">NEGROS
@@ -57,13 +92,19 @@
                 <div class="row">
                   <div class="col col-xl-10">
                     <h6
-                      class=" carousel-text w3-text-light-grey p-2 mt-2 border border-white rounded w3-animate-bottom me-md-5"
-                      style="background-color: rgba(0, 0, 0, 0.493);">
+                      class=" carousel-text w3-text-light-grey p-2 mt-2 border border-white rounded w3-animate-bottom me-md-5">
                       A talented group of web designers dedicated to empowering local businesses in Negros Oriental and
                       beyond. With a passion for creativity and a deep understanding of digital marketing, our team is
                       committed to helping small and large enterprises thrive by enhancing their online presence through
                       effective advertising and the development of personalized webpages and websites.
                     </h6>
+
+                    <div class="row justify-content-center">
+                      <div class="col text-center mt-lg-4">
+                        <a href="#about"><button class="btn fs-5 text-white rounded-pill glow-button"
+                            style="width: 300px; background-color: rgb(13, 255, 255);">EXPLORE</button></a>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
@@ -72,7 +113,7 @@
             </div>
           </div>
         </div>
-        <h1 class="sums-scroll-icon w3-display-bottommiddle text-center text-white" style="z-index: 10; bottom: 5%;">
+        <!-- <h1 class="sums-scroll-icon w3-display-bottommiddle text-center text-white" style="z-index: 10; bottom: 5%;">
           <span class="w3-hide-small">
             <h1 style="padding: 10px 50px 10px 50px;"></h1>
           </span>
@@ -82,7 +123,7 @@
             DOWN</span> <br>
           <a href="#about" class="button scroll" style="background-color: rgba(0, 0, 0, 0.5);">
             <span class="scroll-down-arrow"></span></a>
-        </h1>
+        </h1> -->
 
       </div>
     </div>
@@ -103,7 +144,7 @@
             <span class="display-1 fw-bolder w3-animate-right w3-wide">ABOUT </span>
             <span class="display-4 w3-text-purple fw-bold w3-animate-top" style="white-space: nowrap;">iHEART
               NEG-OR</span>
-            <div class="row row-cols-1 justify-content-center mt-5">
+            <div class="row row-cols-1 justify-content-center mt-2">
               <div class="col col-lg-10">
                 <div id="carouselExampleIndicators" class="carousel slide">
                   <div class="carousel-indicators">
@@ -116,9 +157,8 @@
                   </div>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="img/file-document-finance-business-laptop-svgrepo-com.svg"
-                        class="d-block w-100 carousel-img" alt="...">
-                      <h6 class=" m-lg-5 px-5 py-3 px-lg-5 py-lg-5 mb-5 w3-text-light-gray carousel-text"
+                      <img src="img/Design team-amico.svg" class="d-block w-100 carousel-img" alt="...">
+                      <h6 class=" mx-lg-5 px-5 py-3 px-lg-5 py-lg-5 mb-5 w3-text-light-gray carousel-text"
                         style="background-color: rgba(0, 0, 99, 0.397);">
                         At iHeart Negros Oriental, we recognize the crucial role that a robust marketing strategy plays
                         in the success of any business, especially in today's digital era. We believe that every local
@@ -129,8 +169,8 @@
                       </h6>
                     </div>
                     <div class="carousel-item">
-                      <img src="img/meeting-svgrepo-com.svg" class="d-block w-100 carousel-img" alt="...">
-                      <h6 class=" m-lg-5 px-5 py-3 px-lg-5 py-lg-5 mb-5 w3-text-light-gray carousel-text"
+                      <img src="img/www-amico.svg" class="d-block w-100 carousel-img" alt="...">
+                      <h6 class=" mx-lg-5 px-5 py-3 px-lg-5 py-lg-5 mb-5 w3-text-light-gray carousel-text"
                         style="background-color: rgba(0, 0, 99, 0.397);">
                         By collaborating with iHeart Negros Oriental, businesses in Negros Oriental can expect a
                         comprehensive and personalized approach to their digital marketing needs. We take the time to
@@ -141,8 +181,8 @@
                       </h6>
                     </div>
                     <div class="carousel-item">
-                      <img src="img/team-group-svgrepo-com.svg" class="d-block w-100 carousel-img" alt="...">
-                      <h6 class=" m-lg-5 px-5 py-3 px-lg-5 py-lg-5 mb-5 w3-text-light-gray carousel-text"
+                      <img src="img/Team work-amico.svg" class="d-block w-100 carousel-img" alt="...">
+                      <h6 class=" mx-lg-5 px-5 py-3 px-lg-5 py-lg-5 mb-5 w3-text-light-gray carousel-text"
                         style="background-color: rgba(0, 0, 99, 0.397);">
                         Our team of skilled web designers possesses a keen eye for aesthetics and a deep understanding
                         of user experience. We work closely with our clients to create visually captivating and
@@ -170,10 +210,49 @@
         </div>
       </div>
     </div>
-    <div class="section w3-flat-pomegranate"></div>
+
+    <!-- VISION MISSION -->
+    <div class="section w3-flat-pomegranate" id="vision">
+      <div class="container-fluid text-white w3-metro-teal p-0" style="width: 100vw; height: 100vh;">
+        <div class="bg-video">
+          <img class="w3-image w3-hide-large w3-hide-medium" src="img/SUMS_COVER1.png" alt=""
+            style="width: 100%; height: 100vh; object-fit: cover;">
+          <!-- <iframe class="bg-video__iframe w3-hide-small"
+            src="https://www.youtube.com/embed/5bJvoDHiQww?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1"
+            frameborder="0" allowfullscreen></iframe> -->
+          <video class="bg-video__iframe" playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+            <source src="img/pexels-weldi-studio-design-8675551-1920x1080-30fps.mp4" type="video/mp4">
+          </video>
+          <div class="container m-0 p-md-0 p-2 w3-display-middle text-center justify-content-center">
+            <span class="display-1 fw-bolder w3-animate-right w3-wide">ABOUT </span>
+            <span class="display-4 w3-text-purple fw-bold w3-animate-top" style="white-space: nowrap;">iHEART
+              NEG-OR</span>
+            <div class="row gap-2 gap-lg-3 row-cols-1 justify-content-center text-center mt-5">
+              <div class="col-6 col-lg-3 zoom">
+                <h1>VISION</h1>
+                <img width="150" height="150" src="img/vision-svgrepo-com.svg" alt="">
+              </div>
+              <div class="col-6 col-lg-3 zoom">
+                <h1>MISSION</h1>
+                <img width="150" height="150" src="img/rocket-svgrepo-com.svg" alt="">
+              </div>
+              <div class="col-6 col-lg-3 zoom">
+                <h1>OBJECTIVES</h1>
+                <img width="150" height="150" src="img/profits-analytics-svgrepo-com.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="section w3-flat-wet-asphalt"></div>
     <div class="section w3-flat-belize-hole"></div>
 
+  </div>
+  <div>
+    <a
+      href="https://www.freepik.com/free-vector/www-concept-illustration_8426454.htm#query=website&position=0&from_view=search&track=sph">Image
+      by storyset on Freepik</a>
   </div>
 
   <script>

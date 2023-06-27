@@ -82,6 +82,12 @@ video {
     height: 150px;
 
   }
+
+  .vision-img {
+    width: 50px;
+    height: 50px;
+  }
+
 }
 
 .glow-button:hover {

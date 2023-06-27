@@ -89,3 +89,23 @@ video {
   box-shadow: 0 0 15px rgba(13, 255, 255, 0.9);
   ;
 }
+
+.bg-about {
+  background-image: url(img/about.png);
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+
+.bg-vision {
+  background-image: url(img/vision.png);
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: relative;
+}

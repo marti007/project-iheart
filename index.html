@@ -120,7 +120,8 @@
       <div class="container-fluid text-white w3-metro-teal p-0" style="width: 100vw; height: 100vh;">
         <div class="bg-video">
 
-          <video class="bg-video__iframe" playsinline autoplay muted loop id="bgvid">
+          <video class="bg-video__iframe" muted="muted" autoplay="autoplay" playsinline="playsinline" loop="loop"
+            id="bgvid">
             <source src="img/pexels-weldi-studio-design-8675549-1920x1080-30fps.mp4" type="video/mp4">
           </video>
           <div class="container m-0 p-md-0 p-2 w3-display-middle text-center">
@@ -199,12 +200,13 @@
       <div class="container-fluid text-white w3-metro-teal p-0" style="width: 100vw; height: 100vh;">
         <div class="bg-video">
 
-          <video class="bg-video__iframe" playsinline autoplay muted loop id="bgvid">
+          <video class="bg-video__iframe" muted="muted" autoplay="autoplay" playsinline="playsinline" loop="loop"
+            id="bgvid">
             <source src="img/pexels-weldi-studio-design-8675551-1920x1080-30fps.mp4" type="video/mp4">
           </video>
           <div class="container m-0 p-md-0 p-2 w3-display-middle text-center justify-content-center">
             <span class="display-2 fw-bolder w3-animate-right w3-wide">ABOUT </span>
-            <span class="display-4 w3-text-blue-gray fw-bold w3-animate-top p-0 m-0" style="white-space: nowrap;">iHEART
+            <span class="display-4 w3-text-aqua fw-bold w3-animate-top p-0 m-0" style="white-space: nowrap;">iHEART
               NEG-OR</span>
             <div class="row row-cols-1 g-5 gap-lg-3 row-cols-1 justify-content-center text-center mt-3">
               <div class="col-6 col-lg-3 zoom">
@@ -239,7 +241,8 @@
     <div class="section w3-flat-wet-asphalt">
       <div class="container-fluid text-white w3-metro-dark-purple p-0" style="width: 100vw; height: 100vh;">
         <div class="bg-video">
-          <video class="bg-video__iframe" playsinline autoplay muted loop id="bgvid">
+          <video class="bg-video__iframe" muted="muted" autoplay="autoplay" playsinline="playsinline" loop="loop"
+            id="bgvid">
             <source src="img/pexels-weldi-studio-design-8675556-1920x1080-30fps.mp4" type="video/mp4">
           </video>
           <div class="container m-0 p-md-0 p-2 w3-display-middle text-center">
@@ -390,25 +393,6 @@
     </div>
   </div>
   </div>
-  <script>
-    function reveal() {
-      var reveals = document.querySelectorAll(".reveal");
-
-      for (var i = 0; i < reveals.length; i++) {
-        var windowHeight = window.innerHeight;
-        var elementTop = reveals[i].getBoundingClientRect().top;
-        var elementVisible = 150;
-
-        if (elementTop < windowHeight - elementVisible) {
-          reveals[i].classList.add("active");
-        } else {
-          reveals[i].classList.remove("active");
-        }
-      }
-    }
-
-    window.addEventListener("scroll", reveal);
-  </script>
 </body>
 
 </html>

@@ -2388,10 +2388,6 @@ button.sums-btn:active {
 
 }
 
-.bg-video__iframe {
-  position: absolute;
-}
-
 .reveal {
   position: relative;
   transform: translateY(50px);

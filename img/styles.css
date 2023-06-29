@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Bebas+Neue&family=Carter+One&family=Cherry+Bomb+One&family=Kaushan+Script&family=PT+Sans+Narrow&family=Roboto:wght@700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Titan+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Bebas+Neue&family=Carter+One&family=Kaushan+Script&family=PT+Sans+Narrow&family=Roboto:wght@700&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.container-1 {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+}
+
+.section:nth-child(1) {
+  background: url();
+}
+
+.section:nth-child(2) {
+  background: url();
+}
+
+.section:nth-child(3) {
+  background: url();
+}
+
+.section:nth-child(3) {
+  background: url();
+}
+
+.section:nth-child(4) {
+  background: url();
+}
+
+.section:nth-child(5) {
+  background: url();
+}
+
+.carousel-img {
+  width: 250px;
+  height: 250px;
+}
+
+.carousel-text {
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 575px) {
+  .carousel-text {
+    font-size: 0.8em;
+
+  }
+
+  .carousel-img {
+    width: 150px;
+    height: 150px;
+
+  }
+
+  .vision-img {
+    width: 50px;
+    height: 50px;
+  }
+
+}
+
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 15px rgba(13, 255, 255, 0.9);
+  ;
+}
+
+.bg-about {
+  background-image: url('img/about.png');
+  object-fit: cover;
+  align-self: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+
+.bg-vision {
+  background-image: url('img/vision.png');
+  object-fit: cover;
+  align-self: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+
+.bg-team {
+  background-image: url('img/team.png');
+  object-fit: cover;
+  align-self: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: relative;
+}

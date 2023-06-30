@@ -97,7 +97,7 @@ video {
 }
 
 .bg-about {
-  background-image: url('img/about.png');
+  background-image: url('img/about.jpg');
   object-fit: cover;
   align-self: center;
   width: 100vw;
@@ -108,9 +108,31 @@ video {
 }
 
 .bg-vision {
-  background-image: url('img/vision.png');
+  background-image: url('img/vision.jpg');
   object-fit: cover;
   align-self: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+
+.bg-team {
+  background-image: url('img/team.jpg');
+  object-fit: cover;
+  align-self: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+
+.bg-work {
+  background-image: url('img/work.jpg');
+  object-fit: cover;
+
   width: 100vw;
   height: 100vh;
   top: 0;

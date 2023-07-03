@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>iHeart Neg-Or | Official Website</title>
-  <link rel="icon" type="image/x-icon" href="img/iheart-profile.png">
+  <link rel="icon" type="image/x-icon" href="img/iheart-logo-4.png">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -31,7 +31,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg  fixed-top">
+  <!-- <nav class="navbar navbar-expand-lg  fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#hero"><img src="img/iheart-logo-4.png" width="50" height="50" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -68,10 +68,43 @@
 
       </div>
     </div>
+  </nav> -->
+  <nav id="navbar-example2" class="navbar navbar-expand-lg fixed-top px-3 mb-3">
+    <a class="navbar-brand" href="home"><img src="img/iheart-logo-4.png" width="50" height="50" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">HOME</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+            aria-expanded="false">ABOUT</a>
+          <ul class="dropdown-menu bg-dark">
+            <li><a class="dropdown-item" href="#about">Who we are</a></li>
+            <li><a class="dropdown-item" href="#vision">Vision, Mission</a></li>
+            <li><a class="dropdown-item" href="#team">Meet the Team</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#work">Our Work</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+
   </nav>
-  <div class="container-1">
+
+  <div class="container-1 scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar-example2"
+    data-bs-smooth-scroll="true" tabindex="0">
     <!-- HERO -->
-    <div class="section w3-flat-turquoise" id="hero">
+    <div class="section w3-flat-turquoise" id="home">
       <div class="container-fluid text-white w3-metro-dark-purple p-0" style="width: 100vw; height: 100vh;">
         <div class="bg-video">
           <video class="bg-video__iframe" playsinline autoplay muted loop id="bgvid">
@@ -79,22 +112,28 @@
           </video>
           <div class="container m-0 p-md-0 p-2 pb-lg-0 pb-5 mb-5 mb-lg-0 w3-display-middle text-center">
             <div class="row gap-lg-5 row-cols-1 justify-content-center">
-              <div class="col-6 col-md-4 col-lg-3 align-items-middle">
+              <div class="col-6 col-md-4 col-lg-3 align-items-middle w3-hide-small w3-hide-medium">
                 <img class="w3-image w3-animate-left  mb-3 mb-lg-0" src="img/iheart-logo-4.png" alt="">
               </div>
+              <div class="col-6 col-md-4 col-lg-3 align-items-middle w3-hide-large">
+                <img class="w3-image w3-animate-left  mb-3 mb-lg-0" src="img/iheart-logo-official-name.png" alt="">
+              </div>
               <div class="col col-lg-8  text-start justify-content-center">
-                <span class="display-1 fw-bolder w3-animate-right w3-wide ">iHEART</span> <br
-                  class="w3-hide-large w3-hide-medium">
-                <span class="display-5 w3-text-deep-orange fw-bold w3-animate-top" style="white-space: nowrap;">NEGROS
+                <span class="display-1 fw-bolder w3-animate-right w3-wide w3-hide-small w3-hide-medium">iHEART</span>
+                <br class="w3-hide-large w3-hide-medium">
+                <span class="display-5 w3-text-deep-orange fw-bold w3-animate-top w3-hide-small w3-hide-medium"
+                  style="white-space: nowrap;">NEGROS
                   ORIENTAL</span>
 
                 <div class="row">
                   <div class="col col-xl-10">
                     <h6
                       class=" carousel-text w3-text-light-grey p-2 mt-2 border border-white rounded w3-animate-bottom me-md-5">
-                      A talented group of web designers dedicated to empowering local businesses in Negros Oriental and
+                      A talented group of web designers dedicated to empowering local businesses in Negros Oriental
+                      and
                       beyond. With a passion for creativity and a deep understanding of digital marketing, our team is
-                      committed to helping small and large enterprises thrive by enhancing their online presence through
+                      committed to helping small and large enterprises thrive by enhancing their online presence
+                      through
                       effective advertising and the development of personalized webpages and websites.
                     </h6>
 
@@ -146,10 +185,12 @@
                       <img src="img/Design team-amico.svg" class="d-block w-100 carousel-img" alt="...">
                       <h6 class=" mx-lg-5 px-5 py-3 px-lg-5 py-lg-5 mb-5 w3-text-light-gray carousel-text"
                         style="background-color: rgba(0, 0, 99, 0.397);">
-                        At iHeart Negros Oriental, we recognize the crucial role that a robust marketing strategy plays
+                        At iHeart Negros Oriental, we recognize the crucial role that a robust marketing strategy
+                        plays
                         in the success of any business, especially in today's digital era. We believe that every local
                         business deserves the opportunity to compete on a level playing field and reach their target
-                        audience effectively. By leveraging our expertise in web design and digital marketing, we aim to
+                        audience effectively. By leveraging our expertise in web design and digital marketing, we aim
+                        to
                         level the playing field for businesses in Negros Oriental and provide them with the tools
                         necessary to excel in the online realm.
                       </h6>
@@ -160,7 +201,8 @@
                         style="background-color: rgba(0, 0, 99, 0.397);">
                         By collaborating with iHeart Negros Oriental, businesses in Negros Oriental can expect a
                         comprehensive and personalized approach to their digital marketing needs. We take the time to
-                        understand their business objectives, target audience, and unique selling points, allowing us to
+                        understand their business objectives, target audience, and unique selling points, allowing us
+                        to
                         develop tailor-made strategies that yield tangible results. Our ultimate goal is to equip
                         businesses with the necessary tools and knowledge to establish a strong online presence, build
                         brand credibility, and drive sustainable growth.
@@ -174,7 +216,8 @@
                         of user experience. We work closely with our clients to create visually captivating and
                         user-friendly websites that not only reflect the essence of their brand but also engage and
                         captivate their target customers. From selecting the right color schemes and typography to
-                        crafting intuitive navigation and engaging content, we ensure that each website we create aligns
+                        crafting intuitive navigation and engaging content, we ensure that each website we create
+                        aligns
                         with the unique goals and values of our clients.
                       </h6>
                     </div>
@@ -270,7 +313,7 @@
                   ORIENTAL</span>
               </div>
             </div>
-            <div class="row row-cols-1 justify-content-center text-center pt-lg-3">
+            <div class="row row-cols-1 justify-content-center text-center pt-lg-3 mt-5 mt-lg-1">
               <div class="col col-lg-5">
                 <h3 class="display-6 py-3">meet the <span class="fw-bold display-5">TEAM</span></h3>
               </div>
@@ -484,13 +527,16 @@
                       TODAY
                     </h1>
                     <p class="py-3 py-sm-0">
-                      <i> Together, we can unlock the vast potential of digital marketing and propel your brand towards
+                      <i> Together, we can unlock the vast potential of digital marketing and propel your brand
+                        towards
                         success</i>
                     </p>
                     <p class="w3-hide-small">
-                      With our cost-effective services, we make professional web design accessible to businesses of all
+                      With our cost-effective services, we make professional web design accessible to businesses of
+                      all
                       sizes, empowering them to establish a strong online identity and drive growth. Experience
-                      top-quality web development at the most affordable rates with iHeart Negros Oriental, your trusted
+                      top-quality web development at the most affordable rates with iHeart Negros Oriental, your
+                      trusted
                       partner for budget-friendly digital solutions.
                     </p>
                     <div class="col text-center mt-lg-4">
@@ -583,6 +629,7 @@
     </div>
 
   </div>
+
   <div>
     <a
       href="https://www.freepik.com/free-vector/www-concept-illustration_8426454.htm#query=website&position=0&from_view=search&track=sph">Image

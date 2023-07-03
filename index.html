@@ -492,9 +492,10 @@
                       partner for budget-friendly digital solutions.
                     </p>
                     <div class="col text-center mt-lg-4">
-                      <a href="#about"><button
-                          class="btn fs-5 text-white rounded-pill glow-button w3-hover-text-blue w3-wide"
-                          style="width: 300px; background-color: rgb(13, 255, 255);">VIEW PRICE</button></a>
+                      <button type="button"
+                        class="btn fs-5 text-white rounded-pill glow-button w3-hover-text-blue w3-wide"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        style="width: 300px; background-color: rgb(13, 255, 255);">VIEW PRICE</button>
                     </div>
                   </div>
                 </div>
@@ -710,6 +711,157 @@
       </div>
     </div>
   </div>
+  <!-- PRICE MODAL -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">PRICING</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class=" row row-cols-1 justify-content-center text-center">
+              <div class="col col-lg-6">
+                <h2>Detailed Price List</h2>
+              </div>
+            </div>
+            <div class="row row-cols-1 justify-content-center ">
+
+
+              <!-- <div class="col col-md-4 col-xl-3 border border-3 border-warning rounded justify-content-center text-center">
+              <img src="img/listing.svg" alt="" class="w3-image py-3" width="100" height="100">
+              <h4>
+                iHeart Chada Valencia Website listing:
+              </h4>
+              <p>
+                <ul>
+                  <li>
+                    Get listed in iHeart Chada Valencia site's recommended businesses.
+                    <ul>
+                      <li>
+                        Php500.00/month
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </p>
+              <div class="py-2">
+                <button class="btn btn-primary">SELECT PLAN</button>
+              </div> 
+            </div> -->
+              <div class="col col-xl-4 border border-3 border-warning rounded justify-content-center text-center">
+                <img src="img/web-optimization-website-browser-svgrepo-com.svg" alt="" class="w3-image py-3" width="100"
+                  height="100">
+                <h4>
+                  Single-page Website:
+                </h4>
+                <p>
+                <ul class="text-start">
+                  <li>
+                    FULLY RESPONSIVE WEBSITE
+                  </li>
+                  <li>
+                    Post anything about You or your business/events/activities.
+                  </li>
+                  <ul>
+                    <li>
+                      Starts at Php2,000(one-time payment)+Php500.00/monthly
+                    <li>
+                      Price may change depending on the volume of the content.
+                    </li>
+                    </li>
+                  </ul>
+                </ul>
+                </p>
+                <div class="py-2">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeei1qIXa6a1rocaI2_WZLZ32v0IxXtO_P3knk5LXjbCRTqUQ/viewform?usp=sf_link"
+                    target="_blank"><button class="btn btn-primary">SELECT PLAN</button></a>
+                </div>
+              </div>
+              <div class="col col-xl-4 border border-3 border-warning rounded justify-content-center text-center">
+                <img src="img/webcreate.svg" alt="" class="w3-image py-3" width="100" height="100">
+                <h4>
+                  Website Creation:
+                </h4>
+                <p>
+                <ul class="text-start">
+                  <li>
+                    FULLY RESPONSIVE WEBSITE
+                  </li>
+                  <li>
+                    Basic Website (up to 8 pages): Starts at Php 5,000.00 one-time fee + monthly maintenance
+                  </li>
+                  <li>
+                    Advanced Website (up to 10 pages with custom features): Starts Php 8,000.00 one-time fee + monthly
+                    maintenance
+                  </li>
+                  <!-- <li>
+                    E-commerce Website (10 or more pages with online store functionality): Starts at Php 15,000.00
+                    one-time
+                    fee + monthly maintenance
+                  </li> -->
+                </ul>
+                </p>
+                <div class="py-2">
+                  <button class="btn btn-primary">SELECT PLAN</button>
+                </div>
+              </div>
+              <div class="col col-xl-4 border border-3 border-warning rounded justify-content-center text-center">
+                <img src="img/featured.svg" alt="" class="w3-image py-3" width="100" height="100">
+                <h4>
+                  Featured Advertisements:
+                </h4>
+                <p>
+                <ul class="text-start">
+                  <li>
+                    Hero Page - Carousel (image max resolution: 1640x924px) : Php 500.00/month
+                    <ul>
+                      <li>
+                        Includes a Unique Design from iHeart Negros Oriental Team.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                </p>
+                <div class="py-2">
+                  <!-- <a disabled href="https://forms.gle/4V2Sg62e7Tw67CuT9" target="_blank"></a> -->
+                  <button type="button" class="btn btn-secondary" disabled>COMING SOON</button>
+                </div>
+              </div>
+            </div>
+            <div class="container pb-5">
+              <h2>Please note:</h2>
+              <ul>
+                <li>
+                  All prices are in Philippine Peso
+                </li>
+                <li>
+                  All Advertisement Plans are optimized for Search Engines to improve visibility in search engine
+                  rankings.
+                </li>
+                <li>
+                  The duration of advertisements is subject to negotiation.
+                </li>
+                <li>
+                  Discounts may be available for long-term commitments or bundled packages.
+                </li>
+                <li>
+                  For sponsored content, the article must be provided by the advertiser or can be written by iHeart
+                  Chada
+                  Valencia's team for an additional fee.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   </div>
   <!-- Messenger Chat Plugin Code -->
   <div id="fb-root"></div>

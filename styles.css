@@ -88,6 +88,11 @@ video {
     height: 50px;
   }
 
+
+  .navbar {
+    background-color: rgb(37, 37, 37);
+  }
+
 }
 
 .glow-button:hover {

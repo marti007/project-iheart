@@ -151,3 +151,21 @@ video {
     margin-right: -140px;
   }
 }
+
+.navbar a.active {
+  color: #ffff !important;
+  background-color: #00b5e2 !important;
+}
+
+.navbar a.visited {
+  color: #ffff !important;
+}
+
+.navbar a:focus {
+  color: #ffff !important;
+}
+
+.navbar a:hover {
+  color: #5661a8 !important;
+  background-color: #00b5e2 !important;
+}

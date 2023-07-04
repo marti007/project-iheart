@@ -71,7 +71,7 @@ video {
   font-size: 1.2em;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 768px) {
   .carousel-text {
     font-size: 0.8em;
 

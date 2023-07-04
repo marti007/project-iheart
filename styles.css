@@ -103,46 +103,27 @@ video {
 
 .bg-about {
   background-image: url('img/about.jpg');
+  background-position: center;
   object-fit: cover;
-  align-self: center;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  position: relative;
+
 }
 
 .bg-vision {
   background-image: url('img/vision.jpg');
+  background-position: center;
   object-fit: cover;
-  align-self: center;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  position: relative;
 }
 
 .bg-team {
   background-image: url('img/team.jpg');
+  background-position: center;
   object-fit: cover;
-  align-self: center;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  position: relative;
 }
 
 .bg-work {
   background-image: url('img/work.jpg');
+  background-position: center;
   object-fit: cover;
-
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  position: relative;
 }
 
 @media screen and (max-width: 361px) {
@@ -173,4 +154,13 @@ video {
 .nav a:hover {
   color: #5661a8 !important;
   background-color: #00b5e2 !important;
+}
+
+.contact-bg {
+  background-image: url('img/pexels-jéshoots-contact.jpg');
+  object-fit: cover;
+
+  background-repeat: no-repeat;
+  background-position: center;
+
 }

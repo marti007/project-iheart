@@ -90,7 +90,7 @@ video {
 
 
   .navbar {
-    background-color: rgb(37, 37, 37);
+    background-color: rgba(37, 37, 37, 0.329);
   }
 
 }

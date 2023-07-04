@@ -157,20 +157,20 @@ video {
   }
 }
 
-.navbar a.active {
+.nav a.active {
   color: #ffff !important;
   background-color: #00b5e2 !important;
 }
 
-.navbar a.visited {
+.nav a.visited {
   color: #ffff !important;
 }
 
-.navbar a:focus {
+.nav a:focus {
   color: #ffff !important;
 }
 
-.navbar a:hover {
+.nav a:hover {
   color: #5661a8 !important;
   background-color: #00b5e2 !important;
 }

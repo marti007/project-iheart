@@ -89,8 +89,8 @@ video {
   }
 
 
-  .navbar {
-    background-color: rgba(37, 37, 37, 0.329);
+  .navbar-collapse {
+    background-color: rgba(37, 37, 37, 0.692);
   }
 
 }

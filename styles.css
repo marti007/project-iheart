@@ -110,26 +110,36 @@ video {
 .bg-about {
   background-image: url('img/about.jpg');
   background-position: center;
+  background-repeat: no-repeat;
   object-fit: cover;
+  background-size: cover;
+
 
 }
 
 .bg-vision {
   background-image: url('img/vision.jpg');
   background-position: center;
+  background-repeat: no-repeat;
   object-fit: cover;
+  background-size: cover;
 }
 
 .bg-team {
   background-image: url('img/team.jpg');
   background-position: center;
+  background-repeat: no-repeat;
   object-fit: cover;
+  background-size: cover;
 }
 
 .bg-work {
   background-image: url('img/work.jpg');
   background-position: center;
+  background-repeat: no-repeat;
   object-fit: cover;
+  background-size: cover;
+
 }
 
 @media screen and (max-width: 361px) {

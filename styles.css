@@ -36,6 +36,7 @@ video {
   background-size: cover;
   scroll-snap-align: start;
   scroll-behavior: smooth;
+  scroll-snap-stop: always;
 }
 
 .section:nth-child(1) {

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>EJ MINIMART</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="img/EJ-favi.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+  <link rel="stylesheet" href="w3.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script async src="https://cse.google.com/cse.js?cx=f1340ed61749c436a">
+  </script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  <style>
+    body,
+    html {
+      height: 100%
+    }
+
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Amatic SC", sans-serif
+    }
+
+    .menu {
+      display: none
+    }
+
+    .bgimg {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("img/pexels-photomix-company-868110.jpg");
+      min-height: 90%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0"
+    nonce="oIyPBqn7"></script>
+  <!-- Navbar (sit on top) -->
+  <!-- <div class="w3-top w3-hide-small">
+    <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+      <a href="#" class="w3-bar-item w3-button">HOME</a>
+      <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#myMap" class="w3-bar-item w3-button">CONTACT</a>
+    </div>
+  </div> -->
+  <nav class="navbar navbar-expand-lg fixed-top w3-xlarge fw-bold p-0 m-0">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img width="auto" height="50px" src="img/EJ-mm-logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav" style="color: black;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active w3-hover-text-amber ms-2" aria-current="page" href="#"
+              style="color: black;">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link w3-hover-text-amber ms-2" href="#menu" style="color: black;">MENU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link w3-hover-text-amber ms-2" href="#about" style="color: black;">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link w3-hover-text-amber ms-2" href="#about" style="color: black;">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header with image -->
+  <header class="bgimg w3-display-container" id="home">
+    <div class="container-fluid"
+      style="background: linear-gradient(to top, #27ae60,#1abc9c00,#1abc9c00); top: 0; bottom: 0; position: absolute;">
+      <div class="w3-display-bottomleft w3-padding">
+        <span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+      </div>
+      <div class="w3-display-middle w3-center">
+        <span class="w3-text-white" style="font-size:100px">
+          <img class="w3-image rounded border-3 border-warning pb-5" style="width: auto; height: 200px;"
+            src="img/EJ-mm-logo.png" alt=""></span>
+
+        <p><a href="#menu" class="w3-button w3-xxlarge w3-black">What's inside the store </a></p>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- Menu Container -->
+  <div class="w3-container w3-padding-64 w3-xxlarge " id="menu"
+    style="background: linear-gradient(to bottom, #27ae60,#1abc9c00,#1abc9c00);">
+    <div class="w3-content shadow-lg w3-white">
+
+      <h1 class="w3-center w3-jumbo pt-5">OUR PRODUCTS</h1>
+      <span>
+        <p style="margin-bottom:64px;" class="fs-3 text-center px-lg-5">Discover an extensive selection of products at
+          EJ
+          Minimart. We carry
+          a variety of
+          items across different
+          categories, including:</p>
+      </span>
+      <div class="w3-row w3-center w3-border w3-border-dark-grey">
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+          <div class="w3-col s4 tablink  w3-hover-red w3-text-dark-grey">Groceries</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+          <div class="w3-col s4 tablink  w3-hover-red w3-text-dark-grey">Beverages</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+          <div class="w3-col s4 tablink  w3-hover-red w3-text-dark-grey">Others
+          </div>
+        </a>
+      </div>
+
+      <div id="Pizza" class="w3-container menu w3-padding-32 w3-white fs-4">
+        <h1><b>RICE</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Starts at Php50.00/kg</span></h1>
+        <p class="w3-text-grey">Princess Jasmine, Ganador, NFA, and more..</p>
+        <hr>
+
+        <h1><b>Cooking</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Low price</span></h1>
+        <p class="w3-text-grey">Oil, Spices, Seasonings, and more..</p>
+        <hr>
+
+        <h1><b>Frozen goods</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Low price</span></h1>
+        <p class="w3-text-grey">Hotdogs, Cheese, Meat, Ham slices, and more..</p>
+        <hr>
+
+        <h1><b>Snacks</b> <span class="w3-right w3-tag w3-dark-grey w3-round">low price</span></h1>
+        <p class="w3-text-grey">Biscuits, Chicherya, ready-to-cook snacks and more..</p>
+        <hr>
+
+        <h1><b>Ice cream</b> <span class="w3-tag w3-red w3-round">Hot!</span><span
+            class="w3-right w3-tag w3-dark-grey w3-round">low price</span></h1>
+        <p class="w3-text-grey">Alice, Selecta, Nestle, Magnolia and more..</p>
+        <hr>
+
+        <h1><b>Ready-to-cook</b> <span class="w3-tag w3-grey w3-round">New</span><span
+            class="w3-right w3-tag w3-dark-grey w3-round">Low price</span></h1>
+        <p class="w3-text-grey">Frozen Pizza, Sandwich, Burger and more..</p>
+      </div>
+
+      <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
+        <h1><b>Lasagna</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span
+            class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
+        <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+        <hr>
+
+        <h1><b>Ravioli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$14.50</span></h1>
+        <p class="w3-text-grey">Ravioli filled with cheese</p>
+        <hr>
+
+        <h1><b>Spaghetti Classica</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$11.00</span></h1>
+        <p class="w3-text-grey">Fresh tomatoes, onions, ground beef</p>
+        <hr>
+
+        <h1><b>Seafood pasta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
+        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+      </div>
+
+
+      <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
+        <h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span
+            class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
+        <p class="w3-text-grey">Ask the waiter</p>
+        <hr>
+
+        <h1><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h1>
+        <p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
+        <hr>
+
+        <h1><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></h1>
+        <p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
+        <hr>
+
+        <h1><b>Tomozzarella</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+        <p class="w3-text-grey">Tomatoes and mozzarella</p>
+      </div><br>
+
+    </div>
+  </div>
+
+  <!-- About Container -->
+  <div class="w3-container w3-padding-64 w3-red  w3-xlarge" id="about">
+    <div class="w3-content">
+      <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+      <p>At EJ Minimart, we take pride in being a reliable and convenient source for groceries in Bacong and its
+        surrounding areas. Our store has been serving the local community since 2019. As a family-owned business, we
+        understand the importance of personalized service and strive to create a welcoming environment for everyone who
+        walks through our doors.</p>
+      <p>The Owner?<strong> Elizabeth and Junsly Kitay </strong> <img src="img/junsly.jpg" style="width:150px"
+          class="w3-circle" alt="owner"></p>
+      <p>We are proud of our interiors.</p>
+      <img src="img/junsly-store.jpg" style="width:auto; height: 500px;" class="w3-image w3-margin-top w3-margin-bottom"
+        alt="Restaurant">
+      <h1><b>Opening Hours</b></h1>
+
+      <div class="w3-row">
+        <div class="w3-col s6">
+          <p>Mon & Tue CLOSED</p>
+          <p>Wednesday 10.00 - 24.00</p>
+          <p>Thursday 10:00 - 24:00</p>
+        </div>
+        <div class="w3-col s6">
+          <p>Friday 10:00 - 12:00</p>
+          <p>Saturday 10:00 - 23:00</p>
+          <p>Sunday Closed</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Image of location/map -->
+  <iframe style="width:100%;" id="myMap"
+    src="https://www.google.com/maps/embed?pb=!4v1689737624489!6m8!1m7!1sJIWQJhk3UChfIh6HG1Cl0Q!2m2!1d9.243607722226011!2d123.2946123415959!3f267.44740481902693!4f-0.8504975541891611!5f1.5120623966841729"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+  <!-- Contact -->
+  <div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge fs-5" style="font-family: 'Poppins';">
+    <div class="w3-content">
+      <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+      <p>Find us at: Inspection St, Bacong, Negros Oriental</p>
+      <p>Call us: 09068685315</p>
+      <p><span class="w3-tag">Why us?</span> At EJ Minimart, we believe in rewarding our loyal customers. Keep an eye on
+        this page for our latest special offers, discounts, and promotions. From seasonal sales to exclusive deals on
+        popular products, you'll find great savings every time you shop with us.</p>
+      <p class="w3- large"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required
+            name="People"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required
+            name="date" value=""></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements"
+            required name="Message"></p>
+        <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-black py-2">
+    <div class="row row-cols-1 justify-content-center text-center">
+      <div class="col-8 col-lg-2">
+        <img class="w3-image" src="img/EJ-mm-logo.png" alt="">
+
+      </div>
+    </div>
+    <p class="p-0 m-0">is a product website of</p>
+    <div class="row row-cols-1 justify-content-center text-center">
+      <div class="col-8 col-lg-2">
+        <a href="index.html"><img src="img/iheart-3m-logo.png" height="100" width="auto" alt=""></a>
+      </div>
+    </div>
+
+  </footer>
+
+  <script>
+    // Tabbed Menu
+    function openMenu(evt, menuName) {
+      var i, x, tablinks;
+      x = document.getElementsByClassName("menu");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+      }
+      document.getElementById(menuName).style.display = "block";
+      evt.currentTarget.firstElementChild.className += " w3-red";
+    }
+    document.getElementById("myLink").click();
+  </script>
+
+</body>
+
+</html>

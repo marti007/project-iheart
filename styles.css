@@ -196,3 +196,9 @@ video {
     transform: rotateY(360deg);
   }
 }
+
+.navbar:hover {
+
+  background-color: rgba(0, 0, 0, 0.149);
+  transition: 0.3s ease;
+}

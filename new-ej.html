@@ -38,6 +38,18 @@
       background-color: ghostwhite;
     }
 
+    .reveal {
+      position: relative;
+      transform: translateY(50px);
+      opacity: 0;
+      transition: 1.5s all ease;
+    }
+
+    .reveal.active {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
     .bgimg1 {
 
       background-repeat: no-repeat;
@@ -59,15 +71,17 @@
 </head>
 
 <body class="bgimg1">
-  <nav class="navbar navbar-expand-lg fixed-top w3-xlarge p-0 m-0">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img width="auto" height="50px" src="img/EJ-mm-logo.png" alt=""></a>
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid p-0">
+      <a class="navbar-brand w3-animate-left" href="#"><img width="auto" height="50px" src="img/EJ-mm-logo.png"
+          alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav" style="color: rgb(226, 102, 0);">
-        <ul class="navbar-nav fs-5">
+        <ul class="navbar-nav fs-5 w3-animate-opacity">
           <li class="nav-item">
             <a class="nav-link active w3-hover-text-amber ms-2" aria-current="page" href="#"
               style="color: rgb(255, 255, 255);"><i class="bi bi-house"></i> Home</a>
@@ -90,7 +104,7 @@
   </nav>
 
 
-  <header class="bgimg w3-display-container" id="home" style="height: 100vh;">
+  <header class="bgimg w3-display-container w3-animate-opacity" id="home" style="height: 100vh;">
     <div class="container-fluid"
       style="background: linear-gradient(to top, #ffffff,#1abc9c00,#1abc9c00); top: 0; bottom: 0; height: 100vh;">
       <div class=" w3-padding">
@@ -100,22 +114,23 @@
         <div class="row row-cols-1 justify-content-center mt-5 mt-lg-2">
           <div class="col col-md-6 col-lg-6">
             <span class="w3-text-white text-center">
-              <img class="w3-image rounded border-3 border-warning pb-lg-5" src="img/EJ_LOGO_1.png" alt=""></span>
+              <img class="w3-image rounded border-3 border-warning pb-lg-5 w3-animate-opacity" src="img/EJ_LOGO_1.png"
+                alt=""></span>
 
 
           </div>
           <div class="col">
-            <h1 class="display-2 fw-bolder text-center w3-hide-small w3-hide-medium"
+            <h1 class="display-2 fw-bolder text-center w3-hide-small w3-hide-medium w3-animate-bottom"
               style="color:rgb(226, 102, 0); text-shadow: 3px 3px 2px rgb(201, 178, 78);">
               YOUR
               ONE-STOP SHOPPING DESTINATION!</h1>
 
-            <h1 class="display-6 fw-bolder text-center w3-hide-large mt-5"
+            <h1 class="display-6 fw-bolder text-center w3-hide-large mt-5 w3-animate-bottom"
               style="color:rgb(226, 102, 0); text-shadow: 3px 3px 2px rgb(201, 178, 78);">
               YOUR
               ONE-STOP SHOPPING DESTINATION!</h1>
 
-            <a href="#menu"><button class="btn btn-success fs-5">What's inside the
+            <a href="#menu"><button class="btn btn-success fs-5 w3-animate-opacity">What's inside the
                 store?</button></a>
           </div>
         </div>
@@ -130,10 +145,10 @@
 
     <div class="row row-cols-1 justify-content-center g-2 g-lg-5 text-center">
       <div class="col">
-        <h1 class="display-2 fw-bolder text-center w3-hide-small w3-hide-medium mt-5"
+        <h1 class="display-2 fw-bolder text-center w3-hide-small w3-hide-medium mt-5 reveal"
           style="color:rgb(226, 102, 0); text-shadow: 3px 3px 2px rgb(201, 178, 78);">
           BROWSE OUR STORE</h1>
-        <p class="fs-3 w3-hide-small w3-hide-medium"> <span class="px-4 py-2 rounded w3-text-dark-grey"
+        <p class="fs-5 w3-hide-small w3-hide-medium reveal"> <span class="px-4 py-2 rounded w3-text-dark-grey"
             style="background-color: #ffffff9a;">Discover
             an
             extensive
@@ -144,10 +159,10 @@
             different
             categories, including:</span></p>
 
-        <h1 class="display-6 fw-bolder text-center w3-hide-large mt-5"
+        <h1 class="display-6 fw-bolder text-center w3-hide-large mt-5 reveal"
           style="color:rgb(226, 102, 0); text-shadow: 3px 3px 2px rgb(201, 178, 78);">
           BROWSE OUR STORE</h1>
-        <p class="fs-6 w3-hide-large"> <span class=" w3-text-dark-grey">Discover
+        <p class="fs-6 w3-hide-large reveal"> <span class=" w3-text-dark-grey">Discover
             an
             extensive
             selection of
@@ -158,21 +173,21 @@
             categories, including:</span></p>
       </div>
       <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-        <img src="img/EJ_MENU_1.jpg" class="w3-image rounded shadow-lg zoom" alt="" data-bs-toggle="modal"
+        <img src="img/EJ_MENU_1.jpg" class="w3-image rounded shadow-lg zoom reveal" alt="" data-bs-toggle="modal"
           data-bs-target="#exampleModal1">
       </div>
       <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-        <img src="img/EJ_MENU_2.jpg" class="w3-image rounded shadow-lg zoom" alt="" data-bs-toggle="modal"
+        <img src="img/EJ_MENU_2.jpg" class="w3-image rounded shadow-lg zoom reveal" alt="" data-bs-toggle="modal"
           data-bs-target="#exampleModal2">
       </div>
       <div class="col col-md-5 col-lg-3">
-        <img src="img/EJ_MENU_3.jpg" class="w3-image rounded shadow-lg zoom my-auto" alt="" data-bs-toggle="modal"
-          data-bs-target="#exampleModal3">
+        <img src="img/EJ_MENU_3.jpg" class="w3-image rounded shadow-lg zoom my-auto reveal" alt=""
+          data-bs-toggle="modal" data-bs-target="#exampleModal3">
       </div>
 
       <div class="col col-md-5 col-lg-3">
-        <img src="img/EJ_MENU_4.jpg" class="w3-image rounded shadow-lg zoom my-auto" alt="" data-bs-toggle="modal"
-          data-bs-target="#exampleModal4">
+        <img src="img/EJ_MENU_4.jpg" class="w3-image rounded shadow-lg zoom my-auto reveal" alt=""
+          data-bs-toggle="modal" data-bs-target="#exampleModal4">
       </div>
     </div>
 
@@ -183,12 +198,13 @@
   <div class="container-fluid" id="about">
     <div class="row justify-content-center text-center">
       <div class="col-11 rounded my-5" style="background-color: rgba(255, 255, 255, 0.377);">
-        <h1 class="display-3 fw-bolder text-center  my-5"
+        <h1 class="display-3 fw-bolder text-center  my-5 reveal"
           style="color:rgb(255, 255, 255); text-shadow: 3px 3px 2px rgb(167, 167, 167);">
           ABOUT US</h1>
         <div class="row row-cols-1 justify-content-center">
           <div class="col col-md-10 col-lg-8 px-lg-5">
-            <p class="fs-5">At EJ Minimart, we take pride in being a reliable and convenient source for groceries in
+            <p class="fs-5 reveal">At EJ Minimart, we take pride in being a reliable and convenient source for groceries
+              in
               Bacong and its
               surrounding areas. Our store has been serving the local community since 2019. As a family-owned business,
               we
@@ -201,10 +217,10 @@
           <div class="col col-lg-4 my-auto">
             <h3>The Owner?</h3>
             <h2 class="" style="color:rgb(63, 62, 62); text-shadow: 3px 3px 2px rgb(167, 167, 167);"><span
-                class="border-bottom border-dark">Elizabeth and Junsly Kitay </span></h2>
+                class="border-bottom border-dark reveal">Elizabeth and Junsly Kitay </span></h2>
           </div>
           <div class="col-8 col-sm-6 col-md-4 col-lg-3 py-5">
-            <img src="img/junsly.jpg" class="w3-circle w3-image" alt="owner">
+            <img src="img/junsly.jpg" class="w3-circle w3-image reveal" alt="owner">
           </div>
         </div>
 
@@ -212,35 +228,36 @@
           <div class="col">
             <div class="row justify-content-center text-center">
               <div class="col-10">
-                <h3 class="display-5 fw-bold text-center  my-5"
+                <h3 class="display-5 fw-bold text-center  my-5 reveal"
                   style="color:rgb(255, 255, 255); text-shadow: 3px 3px 2px rgb(167, 167, 167);">
                   Check out our interior</h3>
               </div>
             </div>
           </div>
 
-          <div class="col-6 col-lg-3">
-            <img src="img/EJ_INTERIOR_1.jpg" alt="" class="w3-image rounded border border-3 border-warning">
+          <div class="col col-sm-6 col-lg-3">
+            <img src="img/EJ_INTERIOR_1.jpg" alt=""
+              class=" reveal zoom w3-image rounded border border-3 border-warning">
           </div>
 
-          <div class="col-6 col-lg-3">
-            <img src="img/EJ_INTERIOR_2.jpg" alt="" class="w3-image rounded border border-3 border-warning">
+          <div class="col col-sm-6  col-lg-3">
+            <img src="img/EJ_INTERIOR_2.jpg" alt="" class="reveal zoom w3-image rounded border border-3 border-warning">
           </div>
 
-          <div class="col-6 col-lg-4">
-            <img src="img/EJ_INTERIOR_3.jpg" alt="" class="w3-image rounded border border-3 border-warning">
+          <div class="col col-sm-6  col-lg-4">
+            <img src="img/EJ_INTERIOR_3.jpg" alt="" class="reveal zoom w3-image rounded border border-3 border-warning">
           </div>
 
-          <div class="col-6 col-lg-4">
-            <img src="img/EJ_INTERIOR_4.jpg" alt="" class="w3-image rounded border border-3 border-warning">
+          <div class="col col-sm-6  col-lg-4">
+            <img src="img/EJ_INTERIOR_4.jpg" alt="" class="reveal zoom w3-image rounded border border-3 border-warning">
           </div>
 
-          <div class="col-6 col-lg-3">
-            <img src="img/EJ_INTERIOR_5.jpg" alt="" class="w3-image rounded border border-3 border-warning">
+          <div class="col col-sm-6  col-lg-3">
+            <img src="img/EJ_INTERIOR_5.jpg" alt="" class="reveal zoom w3-image rounded border border-3 border-warning">
           </div>
 
-          <div class="col-6 col-lg-4">
-            <img src="img/EJ_INTERIOR_6.jpg" alt="" class="w3-image rounded border border-3 border-warning">
+          <div class="col col-sm-6  col-lg-4">
+            <img src="img/EJ_INTERIOR_6.jpg" alt="" class="reveal zoom w3-image rounded border border-3 border-warning">
           </div>
         </div>
       </div>
@@ -250,8 +267,13 @@
   <!-- MAP -->
   <div class="container-fluid">
     <div class="row row-cols-1 justify-content-center text-center my-5">
-      <div class="col col-lg-10">
-        <iframe style="width:100%;" id="myMap"
+
+      <div class="col col-lg-10 rounded p-lg-5" style="background-color: rgba(255, 255, 255, 0.377);">
+        <h3 class="display-5 fw-bold text-center mt-5 mt-lg-2 mb-5 reveal"
+          style="color:rgb(255, 255, 255); text-shadow: 3px 3px 2px rgb(167, 167, 167);">
+          <span class="border-bottom border-3">VISIT US</span>
+        </h3>
+        <iframe style="width:100%;" id="myMap" class="reveal"
           src="https://www.google.com/maps/embed?pb=!4v1689737624489!6m8!1m7!1sJIWQJhk3UChfIh6HG1Cl0Q!2m2!1d9.243607722226011!2d123.2946123415959!3f267.44740481902693!4f-0.8504975541891611!5f1.5120623966841729"
           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -281,6 +303,11 @@
             <p class="py-2 m-0 fs-5"> <i class="bi bi-geo-alt"></i> Find us at: Inspection St, Bacong, Negros Oriental
             </p>
             <p class="py-2 m-0 fs-5"><i class="bi bi-telephone"></i> Call us: 09068685315</p>
+            <a href="https://www.facebook.com/EJsMinimart2022" target="_blank"
+              class="w3-hover-text-cyan w3-text-dark-grey">
+              <p class="py-2 m-0 fs-5 w3-hover-text-cyan"><i class="bi bi-facebook"></i> Follow us: EJ's
+                Minimart</p>
+            </a>
           </div>
         </div>
 
@@ -288,7 +315,7 @@
     </div>
   </div>
 
-  <footer class="w3-center w3-flat-wet-asphalt py-5">
+  <footer class="container-fluid w3-flat-wet-asphalt py-5 text-center">
     <div class="row row-cols-1 justify-content-center text-center">
       <div class="col-8 col-lg-2">
         <img class="w3-image rounded" src="img/EJ-mm-logo.png" alt="">
@@ -297,7 +324,7 @@
     </div>
     <p class="py-2 m-0">is a product website of</p>
     <div class="row row-cols-1 justify-content-center text-center">
-      <div class="col-8 col-lg-2">
+      <div class="col-5 col-lg-2">
         <a href="index.html"><img src="img/iheart-3m-logo.png" class="w3-image" alt=""></a>
       </div>
     </div>
@@ -357,6 +384,24 @@
     </div>
   </div>
 
+
 </body>
+<script>
+  function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  } window.addEventListener("scroll", reveal);
+</script>
 
 </html>
